@@ -1,8 +1,0 @@
-\begin{tabular}{lllllllllllll}
-\toprule
- & gemini-2.0-flash-lite & gemini-2.0-flash & gpt-4o-mini & gpt-4o & llama32-11B & llama32-90B & Ovis2-8B & Ovis2-34B & Qwen25VL-7B & Qwen25VL-72B & llavaov-7B & llavaov-72B \\
-\midrule
-Exp100 & 99.7 & 35.9 & 0.3 & 41.0 & 0.4 & 1.6 & 0.2 & 0.0 & 0.0 & 0.0 & 6.7 & 0.0 \\
-Exp1000 & 99.5 & 44.9 & 1.0 & 52.1 & 0.8 & 4.5 & 2.1 & 0.0 & 0.0 & 3.9 & 0.2 & 0.3 \\
-\bottomrule
-\end{tabular}
