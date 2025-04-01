@@ -1,0 +1,22 @@
+\begin{tabular}{lllllllllllll}
+\toprule
+input_types & \multicolumn{4}{r}{text} & \multicolumn{4}{r}{textvision} & \multicolumn{4}{r}{vision} \\
+selected_metrics & anomaly_precision & anomaly_recall & anomaly_f1 & balanced_accuracy_score & anomaly_precision & anomaly_recall & anomaly_f1 & balanced_accuracy_score & anomaly_precision & anomaly_recall & anomaly_f1 & balanced_accuracy_score \\
+\midrule
+dummy & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} \\
+gemini-2.0-flash-lite & \lwf{0.0421} & \lwf{0.1108} & \lwf{0.0492} & \lwd{0.6077} & 0.1817 & \lwf{0.3344} & 0.2166 & 0.8005 & 0.2240 & \lwf{0.3782} & 0.2626 & 0.8260 \\
+gemini-2.0-flash & \lwf{0.0775} & \lwf{0.1114} & \lwf{0.0688} & 0.6732 & 0.1828 & \lwf{0.2757} & 0.1997 & 0.7762 & 0.1908 & \lwf{0.3461} & 0.2335 & 0.8102 \\
+gpt-4o-mini & \lwf{0.0318} & \lwf{0.0754} & \lwf{0.0344} & \lwd{0.6087} & \lwf{0.0426} & \lwf{0.0665} & \lwf{0.0417} & \lwd{0.6517} & \lwf{0.0255} & \lwf{0.0261} & \lwf{0.0209} & 0.6590 \\
+gpt-4o & \lwf{0.0456} & \lwf{0.0535} & \lwf{0.0424} & 0.6612 & \lwf{0.0724} & \lwf{0.1055} & \lwf{0.0786} & 0.6901 & 0.0828 & \lwf{0.1506} & \lwf{0.0997} & 0.7167 \\
+llama32-11B & \lwf{0.0278} & \lwf{0.2637} & \lwf{0.0440} & \lwd{0.5495} & \lwf{0.0384} & \lwf{0.3464} & \lwf{0.0627} & \lwd{0.4999} & \lwf{0.0428} & \lwf{0.3320} & \lwf{0.0701} & \lwd{0.5432} \\
+llama32-90B & \lwf{0.0325} & \lwf{0.1289} & \lwf{0.0426} & \lwd{0.5790} & 0.1082 & \lwf{0.3325} & \lwf{0.1229} & \lwd{0.5808} & 0.1021 & \lwf{0.3396} & 0.1318 & \lwd{0.6196} \\
+Ovis2-8B & \lwf{0.0300} & \lwf{0.3257} & \lwf{0.0520} & \lwd{0.4352} & \lwf{0.0704} & \lwf{0.1072} & \lwf{0.0746} & 0.6923 & \lwf{0.0760} & \lwf{0.0882} & \lwf{0.0735} & 0.6868 \\
+Ovis2-34B & \lwf{0.0344} & \lwf{0.0327} & \lwf{0.0295} & 0.6610 & 0.1401 & \lwf{0.1095} & \lwf{0.1160} & 0.7002 & 0.1459 & \lwf{0.1591} & 0.1428 & 0.7238 \\
+Qwen25VL-7B & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.0000} & \eqd{0.6519} \\
+Qwen25VL-72B & \lwf{0.0080} & \lwf{0.0132} & \lwf{0.0081} & 0.6533 & 0.1250 & \lwf{0.1710} & 0.1347 & 0.7282 & 0.1657 & \lwf{0.1939} & 0.1658 & 0.7390 \\
+llavaov-7B & \lwf{0.0169} & \lwf{0.0816} & \lwf{0.0214} & \lwd{0.6183} & \lwf{0.0466} & \lwf{0.2968} & \lwf{0.0726} & \lwd{0.5592} & \lwf{0.0476} & \lwf{0.2974} & \lwf{0.0744} & \lwd{0.5659} \\
+llavaov-72B & \lwf{0.0244} & \lwf{0.0270} & \lwf{0.0159} & \lwd{0.6371} & 0.0869 & \lwf{0.2336} & \lwf{0.1112} & 0.6729 & 0.1018 & \lwf{0.3271} & 0.1413 & 0.6756 \\
+isolationForest & 0.0797 & 0.6320 & 0.1234 & \lwd{0.5927} & 0.0797 & 0.6320 & 0.1234 & \lwd{0.5927} & 0.0797 & 0.6320 & 0.1234 & \lwd{0.5927} \\
+perfect & 0.6962 & 0.6962 & 0.6962 & 1.0000 & 0.6962 & 0.6962 & 0.6962 & 1.0000 & 0.6962 & 0.6962 & 0.6962 & 1.0000 \\
+\bottomrule
+\end{tabular}
