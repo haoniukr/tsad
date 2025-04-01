@@ -2,11 +2,11 @@
 We provide files in three formats (csv, latex and markdown) for the convience.
 
 ## cleaning_rate
-Eva100* (input length 100): the detailed cleaning rate results for each input type, anomaly type and model
+**Eva100\*** (input length 100): the detailed cleaning rate results for each input type, anomaly type and model
 
-Eva1000* (input length 1000): the detailed cleaning rate results for each input type, anomaly type and model
+**Eva1000\*** (input length 1000): the detailed cleaning rate results for each input type, anomaly type and model
 
-Overall*: Averaged cleaning rate among input and anomaly types
+**Overall\***: Averaged cleaning rate among input and anomaly types
 
 cleaning_operation_sum.png: Figure 2 in the submission
 
